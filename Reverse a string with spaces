@@ -1,3 +1,4 @@
+#will reverse a string with multiple words seperated by spaces
 def reverse(sentence):
    answer = sentence.split()
    answer.reverse()
