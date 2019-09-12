@@ -5,3 +5,5 @@ def onlyletters(arg):
        if not c.isnumeric():
            result.append(c)
    return ''.join(result)
+# one liner version 
+#   return ''.join([ c for c in arg if c.isalpha() ])
