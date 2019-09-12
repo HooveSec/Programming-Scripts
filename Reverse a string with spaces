@@ -1,0 +1,6 @@
+def reverse(sentence):
+   answer = sentence.split()
+   answer.reverse()
+   done = ' '.join(answer)
+   return done
+# 1 liner # return ' '.join(reversed(sentence.split()))
