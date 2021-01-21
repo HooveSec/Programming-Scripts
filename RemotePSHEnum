@@ -1,0 +1,13 @@
+$sessionOption = New-PSSessionOption -SkipCACheck -SkipCNCheck -SkipRevocationCheck
+New-PSSession 10.225.155.58 -Credential CPT153 -UseSSL -SessionOption $sessionOption
+
+##It should then give you a number
+##then you type
+##enter-pssession #
+
+
+##PS C:\Users\CPT153B\Desktop> 
+$s= New-PSSession 10.225.155.50 -Credential CPT153 -UseSSL -SessionOption $sessionOption
+
+##PS 
+C:\Users\CPT153B\Desktop> Invoke-Command -Session $s -FilePath .\jaws.ps1
