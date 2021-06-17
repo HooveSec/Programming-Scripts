@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo -n "1 or 2: "
+read var
+case "$var" in
+	(1) echo "1" ;; 
+	(2) echo "2" ;;
+
+esac
