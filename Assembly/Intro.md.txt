@@ -1,0 +1,23 @@
+sudo apt-get install nasm
+mkdir ASM
+
+ 
+
+## ; = comment in assembly 
+
+ 
+
+; Author: SteveIrwinCyber
+
+ 
+
+; first call entry point(global)
+
+ 
+
+global _start
+
+ 
+
+_start:
+    mov
